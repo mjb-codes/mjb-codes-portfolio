@@ -19,16 +19,25 @@ From: https://colorhunt.co/palette/00354500454a3c6562ed6363 */
 
 /* General Styles */
 
-h1,
-h2 {
-    font-family: 'Arvo', serif;
-    font-weight: 600;
-    letter-spacing: .15rem;
-}
-
 body {
     font-family: 'Rubik', sans-serif;
     color: var(--color-text-light);
+}
+
+h1,
+h2 {
+    font-family: 'Arvo', serif;
+    font-weight: 400;
+    letter-spacing: .15rem;
+}
+
+/*increase font weight */
+.heavy-text {
+    font-weight: 600;
+}
+
+.accent-text {
+    color: var(--color-highlight);
 }
 
 /* flex class */
@@ -77,10 +86,6 @@ nav {
     line-height: 3.6rem;
 }
 
-#nav-logo-container > h1 span {
-    font-weight: 400;
-}
-
 /* Main Styles */
 
 /* Hero */
@@ -88,7 +93,6 @@ nav {
 #hero {
     /* calculate height of section minus navbar */
     height: calc(100vh - 104.8px);
-    min-height: 90vh;
     /* backup bg colour if browser can't support gradient */
     background-color: var(--color-primary-light);
     /* create gradient background from root colours */
@@ -97,4 +101,21 @@ nav {
     background-repeat: no-repeat;
     padding: 0 5vw 0 10vw;
     overflow: hidden;
+}
+
+#hero-main-title {
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    flex: 1;
+}
+
+#hero-title-wrapper,
+#hero-button-wrapper {
+    justify-items: center;
+}
+
+#hero-title {
+    font-size: 7vh;
 }
