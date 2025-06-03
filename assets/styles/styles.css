@@ -77,11 +77,24 @@ nav {
     line-height: 3.6rem;
 }
 
+#nav-logo-container > h1 span {
+    font-weight: 400;
+}
+
 /* Main Styles */
 
 /* Hero */
 
 #hero {
-    height: 90vh;
+    /* calculate height of section minus navbar */
+    height: calc(100vh - 104.8px);
+    min-height: 90vh;
+    /* backup bg colour if browser can't support gradient */
     background-color: var(--color-primary-light);
+    /* create gradient background from root colours */
+    background: linear-gradient(60deg, var(--color-primary-dark), var(--color-primary-light));
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    padding: 0 5vw 0 10vw;
+    overflow: hidden;
 }
