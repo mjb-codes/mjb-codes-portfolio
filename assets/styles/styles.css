@@ -31,6 +31,11 @@ h2 {
     letter-spacing: .15rem;
 }
 
+p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
 /*increase font weight */
 .heavy-text {
     font-weight: 600;
@@ -44,6 +49,26 @@ h2 {
 
 .flex {
     display: flex;
+}
+
+/* buttons */
+
+.button {
+    background-color: transparent;
+    padding: .8rem;
+    border: .15rem solid var(--color-text-light);
+    border-radius: .5rem;
+    font-family: 'Rubik' sans-serif;
+    letter-spacing: .05rem;
+    color: var(--color-text-light);
+    font-size: 1.2rem;
+    transition: 0.2s ease-out;
+}
+
+button:hover {
+    background-color: var(--color-text-light);
+    color: var(--color-secondary);
+    transition: 0.2s ease-in;
 }
 
 /* Navigation */
@@ -105,15 +130,21 @@ nav {
 
 #hero-main-title {
     flex-flow: column wrap;
-    align-items: center;
+    /* align-items: center;s */
     justify-content: center;
     min-height: 80vh;
     flex: 1;
 }
 
-#hero-title-wrapper,
-#hero-button-wrapper {
-    justify-items: center;
+/* add space between title and buttons */
+
+#hero-button-wrapper,
+#hero-text-wrapper {
+    margin-top: 40px;
+}
+
+#hero-button-wrapper .button {
+    margin-right: 1.5rem
 }
 
 #hero-title {
