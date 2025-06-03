@@ -205,7 +205,7 @@ The color pallete hex codes have been added to the global scope of the styleshee
     --color-text-light: #ededed;
 }
 ```
-###Fonts
+### Fonts
 
 The fonts selected for the website were taken from [Google Fonts](https://fonts.google.com)
 
@@ -222,10 +222,12 @@ The-+54- fonts are imported into the stylesheet via @import:
 ```css
 @import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 ```
+## Libraries
 
+### Font Awesome
 
+[Font Awesome vers. 6](https://www.fontawesome.com) icon library is installed to allow for branded icons in the About Me and Contact sections
 
+### Tutorials referenced
 
-
-
-
+[Gradient backgrounds in CSS](https://www.w3schools.com/css/css3_gradients.asp)

@@ -32,8 +32,10 @@ h2 {
 }
 
 p {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
+    letter-spacing: .02rem;
     line-height: 2rem;
+    color: #202020
 }
 
 /*increase font weight */
@@ -130,18 +132,19 @@ nav {
 
 #hero-main-title {
     flex-flow: column wrap;
-    /* align-items: center;s */
     justify-content: center;
     min-height: 80vh;
     flex: 1;
 }
 
-/* add space between title and buttons */
+/* add space above text and buttons in hero */
 
 #hero-button-wrapper,
 #hero-text-wrapper {
     margin-top: 40px;
 }
+
+/* add space between buttons in hero*/
 
 #hero-button-wrapper .button {
     margin-right: 1.5rem
@@ -149,4 +152,32 @@ nav {
 
 #hero-title {
     font-size: 7vh;
+}
+
+/* About */
+
+#about {
+    flex-flow: row wrap;
+    padding: 104.8px 5vh 5vh;
+    align-items: center;
+}
+
+#about-image {
+    padding-top: 2rem;
+    width: 50vh;
+    height: 50vh;
+    background-color: var(--color-primary-dark);
+    overflow: hidden;
+    filter: drop-shadow(0 0 0.5rem rgb(80, 80, 80));
+}
+
+#about-image img {
+    width: 100%;
+}
+
+#about-text > h2 {
+    font-size: 5vh;
+    color: var(--color-secondary);
+    font-weight: 600;
+    margin: .83em 0;
 }
