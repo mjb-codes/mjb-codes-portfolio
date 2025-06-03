@@ -156,6 +156,21 @@ To demonstrate technical ability and personality through a clear flow of informa
 2. Create unordered list of tech stack developer is experienced in
 3. Use custom CSS to format list to fill page space dynamically across all devices
 
+## Wireframes
+
+These wireframes represent how the single page website will view across different devices. The breakpoints for each device have been decided based on the following screen sizes:
+
+Screen size | Breakpoint | Device Type
+--- | --- | ---
+Small | `480px and under` | Smartphone (portrait)
+Medium | `481px - 768px` | Tablet (portrait)
+Large | `769px and above` | Laptop screens and larger
+
+1. [Mobile device wireframe](./assets/wireframes/Portfolio%20Page%20Wireframes.png)
+2. [Tablet device wireframe](./assets/wireframes/Portfolio%20Page%20Wireframes.png)
+3. [Laptop and larger device wireframe](./assets/wireframes/Portfolio%20Page%20Wireframes.png)
+
+
 
 
 
