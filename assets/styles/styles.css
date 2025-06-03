@@ -181,3 +181,25 @@ nav {
     font-weight: 600;
     margin: .83em 0;
 }
+
+#tech-stack {
+    flex-basis: 100%;
+    margin: 24px 0;
+    padding: 12px;
+    /* background-color: red; */
+}
+
+#tech-stack-list {
+    list-style-type: none;
+    padding-left: 0;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+#tech-stack-list .icon {
+    flex-basis: 33%;
+    padding: 6px;
+    color: var(--color-secondary);
+    font-size: 7vh;
+    text-align: center;
+}
