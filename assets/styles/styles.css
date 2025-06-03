@@ -12,8 +12,9 @@ From: https://colorhunt.co/palette/00354500454a3c6562ed6363 */
     --color-text-light: #ededed;
 }
 
+/* apply 0 margin to all page elements unless otherwise stated */
 * {
-    margin: auto;
+    margin: 0;
 }
 
 /* General Styles */
@@ -21,7 +22,8 @@ From: https://colorhunt.co/palette/00354500454a3c6562ed6363 */
 h1,
 h2 {
     font-family: 'Arvo', serif;
-    font-weight: 400;
+    font-weight: 600;
+    letter-spacing: .15rem;
 }
 
 body {
@@ -29,28 +31,50 @@ body {
     color: var(--color-text-light);
 }
 
+/* flex class */
+
+.flex {
+    display: flex;
+}
+
 /* Navigation */
 
 nav {
-    height: 100%;
-    background-color: var(--color-primary-dark);
-    color: var(--color-text-light);
-    display: flex;
+    position: sticky;
+    top: 0;
+    /* z-index at 100 to ensure appears over other page content */
+    z-index: 100;
+    background-color: var(--color-secondary);
     padding: 24px 48px;
+    /* wrap child divs along row */
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-#nav-logo-container {
-    /* background-color: red; */
-    flex: 1;
+#nav-logo-container,
+#nav-menu-icon-container {
+    color: var(--color-text-light);
+    flex: 1 0 50%;
+    align-content: center;
+}
+
+#nav-menu-icon-container {
+    font-size: 3rem;
+    justify-items: right;
 }
 
 #nav-links-container {
-    /* background-color: green; */
-    flex: 1;
+    justify-content: center;
+    flex-basis: 100%;
+    display: none;
 }
 
 #nav-links {
     list-style-type: none;
+    padding: 40px 0;
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 3.6rem;
 }
 
 /* Main Styles */
