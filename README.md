@@ -205,10 +205,23 @@ The color pallete hex codes have been added to the global scope of the styleshee
     --color-text-light: #ededed;
 }
 ```
+###Fonts
 
+The fonts selected for the website were taken from [Google Fonts](https://fonts.google.com)
 
+**Arvo** Was selected for the logo and headings as a professional and modern looking serif font:
 
+[Arvo font family on Google Fonts](https://fonts.google.com/specimen/Arvo/about?query=arvo)
 
+**Rubik** was selected for body text and links for it's legibility and complementary look against Arvo:
+
+[Rubik font family on Google Fonts](https://fonts.google.com/specimen/Rubik/about?query=rubik)
+
+The-+54- fonts are imported into the stylesheet via @import:
+
+```css
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+```
 
 
 
