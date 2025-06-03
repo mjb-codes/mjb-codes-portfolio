@@ -170,6 +170,38 @@ Large | `769px and above` | Laptop screens and larger
 2. [Tablet device wireframe](./assets/wireframes/Portfolio%20Page%20Wireframes.png)
 3. [Laptop and larger device wireframe](./assets/wireframes/Portfolio%20Page%20Wireframes.png)
 
+## Design
+
+### Colour Pallette
+
+The base colour pallette chosen for the website is from [colorhunt.co](https://www.colorhunt.co)
+
+The decision to use a mainly blue pallette was made as these colours suggest professionalism, trust and reliabilty, with a contrasting accent colour in red to call attention to pivotal elements such as CTA buttons.
+
+[Blue colour pallette from colorhunt.co](https://colorhunt.co/palette/00354500454a3c6562ed6363)
+
+Additionally, colours for highlighted accent elements and a light text colour that complimented this pallete were added. The completed site colour pallete is as follows:
+
+Primary Dark: #00454A
+Primary Light: #3C6562
+Secondary: #003545
+Highlight: #ED6363
+Highlight Raise: #b94c4c
+Text Light: #ededed
+
+The color pallete hex codes have been added to the global scope of the stylesheet as [custom variables](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_cascading_variables/Using_CSS_custom_properties)
+
+`
+:root {
+    --color-primary-dark: #00454A;
+    --color-primary-light: #3C6562;
+    --color-secondary: #003545;
+    --color-highlight: #ED6363;
+    --color-highlight-raise: #b94c4c
+    --color-text-light: #ededed;
+}
+
+`
 
 
 

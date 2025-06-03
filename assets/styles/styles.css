@@ -1,3 +1,15 @@
+/* Colour Pallete:
+From: https://colorhunt.co/palette/00354500454a3c6562ed6363 */
+
+:root {
+    --color-primary-dark: #00454A;
+    --color-primary-light: #3C6562;
+    --color-secondary: #003545;
+    --color-highlight: #ED6363;
+    --color-highlight-raise: #b94c4c
+    --color-text-light: #ededed;
+}
+
 * {
     margin: auto;
 }
@@ -8,8 +20,8 @@
 
 nav {
     height: 100%;
-    background-color: #003545;
-    color: #EDEDED;
+    background-color: var(--color-primary-dark);
+    color: var(--color-text-light);
     display: flex;
     padding: 24px 48px;
 }
@@ -26,4 +38,13 @@ nav {
 
 #nav-links {
     list-style-type: none;
+}
+
+/* Main */
+
+/* Hero */
+
+#hero {
+    height: 90vh;
+    background-color: var(--color-primary-light)
 }
