@@ -182,16 +182,18 @@ The decision to use a mainly blue pallette was made as these colours suggest pro
 
 Additionally, colours for highlighted accent elements and a light text colour that complimented this pallete were added. The completed site colour pallete is as follows:
 
+```html
 Primary Dark: #00454A
 Primary Light: #3C6562
 Secondary: #003545
 Highlight: #ED6363
 Highlight Raise: #b94c4c
 Text Light: #ededed
+```
 
 The color pallete hex codes have been added to the global scope of the stylesheet as [custom variables](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_cascading_variables/Using_CSS_custom_properties)
 
-`
+```CSS
 :root {
     --color-primary-dark: #00454A;
     --color-primary-light: #3C6562;
@@ -200,8 +202,7 @@ The color pallete hex codes have been added to the global scope of the styleshee
     --color-highlight-raise: #b94c4c
     --color-text-light: #ededed;
 }
-
-`
+```
 
 
 
