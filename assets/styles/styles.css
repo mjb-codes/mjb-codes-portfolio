@@ -1,4 +1,29 @@
 * {
     margin: auto;
-    background: #fafafa;
+}
+
+/* General Styles */
+
+/* Navigation */
+
+nav {
+    height: 100%;
+    background-color: #003545;
+    color: #EDEDED;
+    display: flex;
+    padding: 24px 48px;
+}
+
+#nav-logo-container {
+    /* background-color: red; */
+    flex: 1;
+}
+
+#nav-links-container {
+    /* background-color: green; */
+    flex: 1;
+}
+
+#nav-links {
+    list-style-type: none;
 }
