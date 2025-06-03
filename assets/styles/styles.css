@@ -197,9 +197,25 @@ nav {
 }
 
 #tech-stack-list .icon {
-    flex-basis: 33%;
     padding: 6px;
     color: var(--color-secondary);
     font-size: 7vh;
     text-align: center;
+}
+
+/* Testimonials */
+
+/* Contact */
+
+/* Footer */
+
+/* Media Queries */
+
+/* for screen sizes below 480px (Mobile) */
+
+@media screen and (max-width: 480px) {
+    /* adjust flex basis of text stack icons to arrange into grid */
+    #tech-stack-list .icon {
+        flex-basis: 33%;
+    }
 }
