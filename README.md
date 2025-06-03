@@ -180,6 +180,8 @@ The decision to use a mainly blue pallette was made as these colours suggest pro
 
 [Blue colour pallette from colorhunt.co](https://colorhunt.co/palette/00354500454a3c6562ed6363)
 
+![Blue colour pallete](./assets/images/Color%20Hunt%20Palette%2000354500454a3c6562ed6363.png "Blue colour pallete")
+
 Additionally, colours for highlighted accent elements and a light text colour that complimented this pallete were added. The completed site colour pallete is as follows:
 
 ```html
