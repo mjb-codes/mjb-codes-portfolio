@@ -38,7 +38,17 @@ p {
     color: #202020
 }
 
-/*increase font weight */
+/* classes for section titles and text */
+
+.title-wrapper {
+    margin: 2rem 0 2rem 0;
+}
+
+.text-wrapper {
+    margin-bottom: 2rem;
+}
+
+/*class to increase font weight */
 .heavy-text {
     font-weight: 600;
 }
@@ -64,12 +74,14 @@ p {
     letter-spacing: .05rem;
     color: var(--color-text-light);
     font-size: 1.2rem;
+    /* transition to return to button default state after hover */
     transition: 0.2s ease-out;
 }
 
 button:hover {
     background-color: var(--color-text-light);
     color: var(--color-secondary);
+    /* transition to smooth into highlight on hover */
     transition: 0.2s ease-in;
 }
 
@@ -239,20 +251,12 @@ nav {
     text-align: center;
 }
 
-#portfolio-title-wrapper {
-    margin: 2rem 0 2rem 0;
-}
-
-#portfolio-text-wrapper {
-    margin-bottom: 2rem;
-}
-
-#portfolio h2 {
+.title-wrapper > h2 {
     color: var(--color-text-light);
     font-size: 5vh;
 }
 
-#portfolio p {
+.text-wrapper > p {
     color: var(--color-text-light);
 }
 
@@ -285,7 +289,7 @@ nav {
 /* highlight card when hovered to indicate button functionality */
 .card:hover {
     background-color: var(--color-primary-light);
-    filter: drop-shadow(0 0 1.5rem rgb(30, 30, 30));
+    filter: drop-shadow(0 0 1.5rem #1e1e1e);
 }
 
 .card-img {
@@ -305,6 +309,7 @@ nav {
 
 .card-text p {
     margin-top: 2rem;
+    color: var(--color-text-light);
 }
 
 .card-text {
@@ -312,6 +317,17 @@ nav {
 }
 
 /* Testimonials */
+
+#testimonials {
+    flex-flow: row wrap;
+    background-color: var(--color-primary-light);
+    padding: 5vh 5vw;
+    margin: 5vh 2vw 2vh 2vw;
+}
+
+#testimonials-title > h2 {
+    margin-bottom: 2rem;
+}
 
 /* Contact */
 
