@@ -163,7 +163,7 @@ nav {
     justify-content: center;
 }
 
-#about-image {
+#about-image-wrapper {
     padding-top: 2rem;
     width: 50vh;
     height: 50vh;
@@ -172,8 +172,12 @@ nav {
     filter: drop-shadow(0 0 0.5rem rgb(80, 80, 80));
 }
 
-#about-image img {
+#about-image-wrapper img {
     width: 100%;
+}
+
+#about-text {
+    text-align: center;
 }
 
 #about-text > h2 {
@@ -215,6 +219,41 @@ nav {
     color: var(--color-primary-dark);
     width: 50%;
     max-width: 300px;
+}
+
+#about-buttons .button:hover {
+    background-color: var(--color-primary-dark);
+    color: var(--color-text-light);
+}
+
+/* Portfolio */
+
+#portfolio {
+    flex: 1;
+    flex-direction: column;
+    padding: 5vw 10vw 5vw 10vw;
+    overflow: hidden;
+    min-height: 90vh;
+    background-color: var(--color-secondary);
+    align-items: center;
+    text-align: center;
+}
+
+#portfolio-title-wrapper {
+    margin: 2rem 0 2rem 0;
+}
+
+#portfolio-text-wrapper {
+    margin-bottom: 2rem;
+}
+
+#portfolio h2 {
+    color: var(--color-text-light);
+    font-size: 5vh;
+}
+
+#portfolio p {
+    color: var(--color-text-light);
 }
 
 /* Testimonials */
