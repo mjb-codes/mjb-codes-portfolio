@@ -160,6 +160,7 @@ nav {
     flex-flow: row wrap;
     padding: 104.8px 5vh 5vh;
     align-items: center;
+    justify-content: center;
 }
 
 #about-image {
@@ -201,6 +202,19 @@ nav {
     color: var(--color-secondary);
     font-size: 7vh;
     text-align: center;
+}
+
+#about-buttons {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+#about-buttons .button {
+    border: solid var(--color-primary-dark);
+    color: var(--color-primary-dark);
+    width: 50%;
+    max-width: 300px;
 }
 
 /* Testimonials */
