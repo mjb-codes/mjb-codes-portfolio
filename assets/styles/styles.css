@@ -258,6 +258,15 @@ nav {
 
 /* portflio cards styles */
 
+#portfolio-cards {
+    flex-flow: row wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    /* set spacing between cards */
+    gap: 2rem;
+}
+
 .card {
     display: flex;
     position: relative;
@@ -279,11 +288,12 @@ nav {
     filter: drop-shadow(0 0 1.5rem rgb(30, 30, 30));
 }
 
-.card img {
+.card-img {
     align-self: center;
     position: absolute;
     height: 100%;
-    opacity: 30%;
+    /* Set image opacity to create overlay effect */
+    opacity: 40%;
     z-index: -1;
 }
 
