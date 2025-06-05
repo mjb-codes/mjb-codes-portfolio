@@ -230,7 +230,7 @@ The hamburger icon was imported using the Font Awesome library as the input labe
 
 **Navigation HTML:**
 
-'''
+'''html
 <nav class="flex" id="nav">
         <!-- Logo -->
             <div id="nav-logo-container">
