@@ -267,12 +267,33 @@ Using a media query for screen sizes below 480px to reduce the font sizes for bo
 
     /* reduce logo size */
     #nav-logo {
-        font-size: 1.2rem;
+        font-size: 5vw;
     }
 
     /* reduce hero title type size */
     #hero-title {
         font-size: 5vh;
+    }
+}
+```
+#### About image wrapper
+
+##### Issue
+
+The sizing of the about image wrapper div was creating a margin to the right of the screen on smaller device widths
+
+##### Solution
+
+Add a media query style rule that reduced the wrapper to 80% of the screen width on devices under 480px
+
+```css
+@media screen and (max-width: 480px) {
+
+    /* reduce about image size on smaller devices */
+
+    #about-image-wrapper {
+        width: 80vw;
+        height: 80vw;
     }
 }
 ```

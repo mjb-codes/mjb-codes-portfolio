@@ -24,6 +24,10 @@ body {
     color: var(--color-text-light);
 }
 
+section {
+    padding: 5vw 10vw 5vw 10vw;
+}
+
 h1,
 h2 {
     font-family: 'Arvo', serif;
@@ -381,7 +385,50 @@ nav {
 
 #contact {
     justify-content: center;
+    align-items: center;
     flex-flow: row wrap;
+    gap: 1.2rem;
+}
+
+#contact h2,
+#contact p {
+    color: var(--color-primary-dark);
+    text-align: center;
+}
+
+#contact-form {
+    background-color: var(--color-primary-light);
+    color: var(--color-text-light);
+    padding: 30px;
+}
+
+#contact-form .text-input,
+#contact-form .list-input {
+    background-color: var(--color-text-light);
+    color: #202020;
+    border: 1px solid var(--color-text-light);
+    border-radius: .15rem;
+    width: 100%;
+    padding: 0 5px;
+    margin: 5px 0 25px 0;
+    box-sizing: border-box;
+}
+
+#contact-form input {
+    height: 40px
+}
+
+#contact-form textarea {
+    height: 150px;
+    resize: none;
+}
+
+#socials-list {
+    width: 90vw;
+}
+
+#socials-list .icon > a {
+    color: var(--color-secondary);
 }
 
 /* Footer */
@@ -391,8 +438,51 @@ nav {
 /* for screen sizes below 480px (Mobile) */
 
 @media screen and (max-width: 480px) {
+
+    /* reduce logo size */
+    #nav-logo {
+        font-size: 5vw;
+    }
+
+    /* reduce hero title type size */
+    #hero-title {
+        font-size: 5vh;
+    }
+
+    /* custom styling for hero buttons on mobile devices */
+    #hero-button-wrapper :nth-child(1) {
+        background-color: var(--color-text-light);
+        color: var(--color-primary-dark);
+    }
+
+    #hero-button-wrapper :nth-child(2) {
+        background-color: var(--color-highlight);
+        border-color: var(--color-highlight);
+    }
+
+    #hero-button-wrapper button {
+        max-width: 150px;
+        max-height: 50px;
+        font-size: 1rem;
+        margin-top: 10px;
+    }
+
+    /* reduce about image size on smaller devices */
+
+    #about-image-wrapper {
+        width: 80vw;
+        height: 80vw;
+    }
+
     /* adjust flex basis of text stack icons to arrange into grid */
     #tech-stack-list .icon {
         flex-basis: 33%;
+    }
+
+    /* resize form button to fill form width */
+    #submit-button {
+        display: block;
+        width: 100%;
+        margin: 0;
     }
 }

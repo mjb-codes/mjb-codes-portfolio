@@ -158,14 +158,12 @@
             <div class="text-wrapper">
                 <p>Want to discuss your project further? Lets arrange a suitable time to talk</p>
             </div>
-            <div id="contact-form">
+            <div id="contact-form-container">
                 <form action="https://formdump.codeinstitute.net" method="POST" id="contact-form">
                     <label for="name">Name</label><br>
                     <input id="name" name="name" type="text" class="text-input" required>
-                    <br><br>
                     <label for="email-address">Email Address</label><br>
                     <input id="email-address" name="email-address" type="email" class="text-input" required>
-                    <br><br>
                     <label for="query-list">What would you like to know?</label><br>
                     <input list="query-list" class="list-input">
                     <datalist id="query-list">
@@ -174,16 +172,30 @@
                         <option value="Ideas">
                         <option value="Another topic">
                     </datalist>
-                    <br><br>
-                    <textarea name="message" rows="10" cols="30" placeholder="Type your message here"></textarea>
-                    <button type="submit" class="button button-accent">Submit</button>
+                    <textarea name="message" placeholder="Type your message here" class="text-input"></textarea>
+                    <button type="submit" class="button button-accent" id="submit-button">Submit</button>
                 </form>
             </div>
-            <div class="flex" id="socials">
-                <ul id="socials-list">
-                    <li class="icon"><a href="https://linkedin.com"><i class="fa-brands fa-linkedin"></i></a></li>
-                    <li class="icon"><a href="https://github.com/mjb-codes"><i class="fa-brands fa-square-github"></i></a></li>
-                    <li class="icon"><a href="https://google.com"><i class="fa-brands fa-google"></i></a></li>
+            <div>
+                <p>Or find me on the following platforms:</p>
+            </div>
+            <div id="socials">
+                <ul class="flex" id="socials-list">
+                    <li class="icon">
+                        <a href="https://linkedin.com" target="_blank" aria-label="Click here to find me on LinkedIn">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li class="icon">
+                        <a href="https://github.com/mjb-codes" target="_blank" aria-label="Click here to find me on Github">
+                            <i class="fa-brands fa-square-github"></i>
+                        </a>
+                    </li>
+                    <li class="icon">
+                        <a href="https://google.com" target="_blank" aria-label="Click here to find my business on Google">
+                            <i class="fa-brands fa-google"></i>
+                        </a>
+                    </li>
                 </ul>
             </div>
          </section>
