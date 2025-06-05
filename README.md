@@ -231,3 +231,48 @@ The-+54- fonts are imported into the stylesheet via @import:
 ### Tutorials referenced
 
 [Gradient backgrounds in CSS](https://www.w3schools.com/css/css3_gradients.asp)
+
+## Testing
+
+### Bugs
+
+#### Form Textarea
+
+##### Issue
+
+When resizing the text area input box, it caused formatting issues with other elements in the form
+
+##### Solution
+
+The solution was to disable the textarea resize property within CSS stylesheet using `resize: none`
+
+```css
+textarea {
+    height: 150px;
+    resize: none;
+}
+```
+#### Navigation logo and Hero title
+
+##### Issue
+
+The title heading for the Hero section overflowing off screen on smaller device sizes, while the Navigation logo was breaking to a new line
+
+##### Solution
+
+Using a media query for screen sizes below 480px to reduce the font sizes for both elements
+
+```css
+@media screen and (max-width: 480px) {
+
+    /* reduce logo size */
+    #nav-logo {
+        font-size: 1.2rem;
+    }
+
+    /* reduce hero title type size */
+    #hero-title {
+        font-size: 5vh;
+    }
+}
+```
