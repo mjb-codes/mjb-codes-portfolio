@@ -90,6 +90,7 @@ p {
     max-width: 200px;
     /* remove hyperlink decoration */
     text-decoration: none;
+    text-align: center;
 }
 
 .button-accent {
@@ -327,15 +328,23 @@ p {
     background-color: var(--color-secondary);
     border-radius: 20px;
     filter: drop-shadow(0 0 0.5rem rgb(30, 30, 30));
+    /* transition for hover overlay effect */
     transition: 0.3s;
     cursor: pointer;
     overflow: hidden;
+    align-items: center;
+    gap: 1.2rem;
 }
 
-/* highlight card when hovered to indicate button functionality */
+/* highlight card when hovered to indicate interactivity */
 .card:hover {
     background-color: var(--color-primary-light);
     filter: drop-shadow(0 0 1.5rem #1e1e1e);
+}
+
+/* add margin to button bottom */
+.card a {
+    margin-bottom: 25px;
 }
 
 .card-img {
@@ -343,7 +352,7 @@ p {
     position: absolute;
     height: 100%;
     /* Set image opacity to create overlay effect */
-    opacity: 40%;
+    opacity: 20%;
     z-index: -1;
 }
 
