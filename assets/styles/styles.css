@@ -76,11 +76,19 @@ p {
     font-size: 1.2rem;
     /* transition to return to button default state after hover */
     transition: 0.2s ease-out;
+    width: 100%;
+    max-width: 200px;
+}
+
+.button-accent {
+    background-color: var(--color-highlight);
+    border: .15rem solid var(--color-highlight);
 }
 
 button:hover {
     background-color: var(--color-text-light);
     color: var(--color-secondary);
+    border: .15rem solid var(--color-text-light);
     /* transition to smooth into highlight on hover */
     transition: 0.2s ease-in;
 }
@@ -229,8 +237,6 @@ nav {
 #about-buttons .button {
     border: solid var(--color-primary-dark);
     color: var(--color-primary-dark);
-    width: 50%;
-    max-width: 300px;
 }
 
 #about-buttons .button:hover {
@@ -363,6 +369,7 @@ nav {
     gap: 2rem;
     justify-content: space-evenly;
     flex-flow: row wrap;
+    margin-bottom: 2.2rem;
 }
 
 /* Contact */
