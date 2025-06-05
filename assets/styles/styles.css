@@ -12,6 +12,12 @@ From: https://colorhunt.co/palette/00354500454a3c6562ed6363 */
     --color-text-light: #ededed;
 }
 
+/* Apply smooth-scrolling */
+
+html {
+    scroll-behavior: smooth;
+}
+
 /* apply 0 margin to all page elements unless otherwise stated */
 * {
     margin: 0;
@@ -133,6 +139,7 @@ button:hover {
 
 #nav-links {
     list-style-type: none;
+    text-decoration: none;
     padding: 40px 0;
     text-align: center;
     font-size: 1.2rem;

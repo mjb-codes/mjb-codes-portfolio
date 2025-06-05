@@ -350,3 +350,12 @@ Add a media query style rule that reduced the wrapper to 80% of the screen width
     }
 }
 ```
+#### Menu link scrolling
+
+##### Issue
+
+When using the menu navigation links a smooth scrolling transition was expected between sections, but it jumped straight to each section
+
+##### Solution
+
+Add `scroll-behavior: smooth` to the html element in the stylesheet to enable smooth scrolling for the whole page
