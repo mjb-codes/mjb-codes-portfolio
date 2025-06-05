@@ -214,14 +214,19 @@ nav {
     /* background-color: red; */
 }
 
-#tech-stack-list {
+/* set icon list styles for all about and contact sections */
+
+#tech-stack-list,
+#socials-list {
     list-style-type: none;
     padding-left: 0;
     flex-flow: row wrap;
     justify-content: space-evenly;
 }
 
-#tech-stack-list .icon {
+/* set class for icons */
+
+.icon {
     padding: 6px;
     color: var(--color-secondary);
     font-size: 7vh;
@@ -373,6 +378,11 @@ nav {
 }
 
 /* Contact */
+
+#contact {
+    justify-content: center;
+    flex-flow: row wrap;
+}
 
 /* Footer */
 
