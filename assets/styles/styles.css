@@ -319,14 +319,50 @@ nav {
 /* Testimonials */
 
 #testimonials {
-    flex-flow: row wrap;
     background-color: var(--color-primary-light);
     padding: 5vh 5vw;
     margin: 5vh 2vw 2vh 2vw;
+    flex-direction: column;
+    justify-content: center;
 }
 
-#testimonials-title > h2 {
+#testimonials > h2 {
     margin-bottom: 2rem;
+}
+
+#testimonials .title-wrapper
+#testimonials .text-wrapper {
+    text-align: center;
+}
+
+.testimonial {
+    max-width: 300px;
+}
+
+.testimonial p {
+    color: var(--color-text-light);
+    font-size: 1rem;
+}
+
+.testimonial a {
+    text-decoration: none;
+    font: 600 1.2rem 'Rubik', serif;
+    background-color: var(--color-text-light);
+    padding: 0.5rem;
+    border-radius: .2rem;
+}
+
+/* hover animation on */
+
+.quote-name {
+    text-align: right;
+    line-height: 2.2rem;
+}
+
+#testimonials-container {
+    gap: 2rem;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
 }
 
 /* Contact */
