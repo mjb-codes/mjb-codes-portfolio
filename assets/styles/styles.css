@@ -99,7 +99,7 @@ button:hover {
 
 /* Navigation */
 
-nav {
+#nav {
     position: sticky;
     top: 0;
     /* z-index at 100 to ensure appears over other page content */
@@ -109,6 +109,7 @@ nav {
     /* wrap child divs along row */
     flex-wrap: wrap;
     justify-content: space-between;
+    overflow: hidden;
 }
 
 #nav-logo-container,
@@ -119,14 +120,15 @@ nav {
 }
 
 #nav-menu-icon-container {
-    font-size: 3rem;
-    justify-items: right;
+    font-size: 2.6rem;
+    text-align: right;
 }
 
 #nav-links-container {
     justify-content: center;
     flex-basis: 100%;
-    display: none;
+    height: 0vh;
+    transition: height 0.5s ease-in;
 }
 
 #nav-links {
@@ -135,6 +137,20 @@ nav {
     text-align: center;
     font-size: 1.2rem;
     line-height: 3.6rem;
+}
+
+/* Styling to toggle navigation menu open and closed */
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/:checked */
+/* https://www.w3schools.com/css/tryit.asp?filename=trycss3_transition2 */
+
+#menu-toggle {
+    /* hide checkbox input */
+    display: none
+}
+
+/* increase height of nav links container when input checked to reveal menu */
+#menu-toggle:checked + #nav-links-container {
+    height: 50vh;
 }
 
 /* Main Styles */

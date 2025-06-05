@@ -9,13 +9,18 @@
 </head>
 <body>
     <!-- Navigation -->
-    <nav class="flex">
+    <nav class="flex" id="nav">
+        <!-- Logo -->
             <div id="nav-logo-container">
                 <h1 id="nav-logo">[<span class="heavy-text">MJB</span> codes]</h1>
             </div>
+        <!-- Hamburger menu -->
         <div id="nav-menu-icon-container">
-            <p>X</p>
+            <label class="menu-icon" for="menu-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </label>
         </div>
+        <input type="checkbox" class="menu-toggle" id="menu-toggle">
         <div id="nav-links-container">
             <ul id="nav-links">
                 <li>Home</li>

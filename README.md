@@ -231,6 +231,8 @@ The-+54- fonts are imported into the stylesheet via @import:
 ### Tutorials referenced
 
 [Gradient backgrounds in CSS](https://www.w3schools.com/css/css3_gradients.asp)
+[The :checked property for checkbox inputs (for menu toggling)](https://developer.mozilla.org/en-US/docs/Web/CSS/:checked)
+[Height transition animation referenced for menu toggling](https://www.w3schools.com/css/tryit.asp?filename=trycss3_transition2)
 
 ## Testing
 
