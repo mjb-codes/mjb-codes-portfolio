@@ -222,6 +222,57 @@ The-+54- fonts are imported into the stylesheet via @import:
 ```css
 @import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 ```
+### Navigation Menu Toggle
+
+The navigation menu toggle for mobile and tablet was created by using an checkbox input and the :checked selector to effect the height of the div container housing the list of page links when in a checked state.
+
+The hamburger icon was imported using the Font Awesome library as the input label, for it to act as a button to change the input state. A transition animation to smooth the open and closing of the menu was also applied to the navigation links container div.
+
+**Navigation HTML:**
+
+'''
+<nav class="flex" id="nav">
+        <!-- Logo -->
+            <div id="nav-logo-container">
+                <h1 id="nav-logo">[<span class="heavy-text">MJB</span> codes]</h1>
+            </div>
+        <!-- Hamburger menu -->
+        <div id="nav-menu-icon-container">
+            <label class="menu-icon" for="menu-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+        </div>
+        <input type="checkbox" class="menu-toggle" id="menu-toggle">
+        <div id="nav-links-container">
+            <ul id="nav-links">
+                <li>Home</li>
+                <li>About</li>
+                <li>Portfolio</li>
+                <li>Testimonials</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+    </nav>
+'''
+
+**Navigation CSS**
+
+```css
+/* Styling to toggle navigation menu open and closed */
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/:checked */
+/* https://www.w3schools.com/css/tryit.asp?filename=trycss3_transition2 */
+
+#menu-toggle {
+    /* hide checkbox input */
+    display: none
+}
+
+/* increase height of nav links container when input checked to reveal menu */
+#menu-toggle:checked + #nav-links-container {
+    height: 50vh;
+}
+```
+
 ## Libraries
 
 ### Font Awesome
