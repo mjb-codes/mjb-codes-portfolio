@@ -88,6 +88,8 @@ p {
     transition: 0.2s ease-out;
     width: 100%;
     max-width: 200px;
+    /* remove hyperlink decoration */
+    text-decoration: none;
 }
 
 .button-accent {
@@ -95,7 +97,7 @@ p {
     border: .15rem solid var(--color-highlight);
 }
 
-button:hover {
+.button:hover {
     background-color: var(--color-text-light);
     color: var(--color-secondary);
     border: .15rem solid var(--color-text-light);
@@ -489,7 +491,7 @@ button:hover {
         border-color: var(--color-highlight);
     }
 
-    #hero-button-wrapper button {
+    #hero-button-wrapper .button {
         max-width: 150px;
         max-height: 50px;
         font-size: 1rem;
