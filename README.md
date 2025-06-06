@@ -281,13 +281,20 @@ The hamburger icon was imported using the Font Awesome library as the input labe
 
 ### Tutorials referenced
 
+#### Gradient Background for the Hero section
+
 [Gradient backgrounds in CSS](https://www.w3schools.com/css/css3_gradients.asp)
+
+#### Menu toggling using checkbox inputs
+
 [The :checked property for checkbox inputs (for menu toggling)](https://developer.mozilla.org/en-US/docs/Web/CSS/:checked)
 [Height transition animation referenced for menu toggling](https://www.w3schools.com/css/tryit.asp?filename=trycss3_transition2)
 
 ## Testing
 
 ### Bugs
+
+This following bugs were discovered during the development process. Each one provides a detail of the issue and the solution to fix it, and where appropriate also the expected behaviour before discovering the bug.
 
 #### Form Textarea
 
