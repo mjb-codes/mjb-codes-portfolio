@@ -1,3 +1,4 @@
+/* import Google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 /* Colour Pallete:
@@ -282,7 +283,6 @@ p {
     flex-basis: 100%;
     margin: 24px 0;
     padding: 12px 0;
-    /* background-color: red; */
 }
 
 /* set icon list styles for all about and contact sections */
