@@ -424,32 +424,53 @@ p {
 #testimonials-container {
     gap: 2rem;
     justify-content: space-evenly;
-    flex-flow: row wrap;
+    flex-direction: row wrap;
     margin-bottom: 2.2rem;
 }
 
 /* Contact */
 
+/* Contact section styling and flex properties */
 #contact {
     justify-content: center;
     align-items: center;
+    align-content: center;
     flex-flow: column wrap;
-    gap: 1.2rem;
+    max-width: 90vw;
+    max-height: 80vh;
 }
 
-#contact h2,
-#contact p {
+#contact .title-wrapper > h2,
+#contact .text-wrapper > p {
     color: var(--color-primary-dark);
-    text-align: center;
 }
 
 #contact-form {
     background-color: var(--color-primary-light);
     color: var(--color-text-light);
     padding: 30px;
-    min-width: 40vw;
 }
 
+/* flexbox styles for responsive content */
+
+#contact .title-wrapper,
+#contact .text-wrapper,
+#socials {
+    max-width: 500px;
+    flex: 1 0 30%;
+    align-self: flex-start;
+}
+
+#contact-form-container {
+    min-width: 250px;
+    max-width: 500px;
+    flex: 1 0 100%;
+    align-self: flex-end;
+}
+
+/* end flex styles */
+
+/* Contct form input styling */
 #contact-form .text-input,
 #contact-form .list-input {
     background-color: var(--color-text-light);
@@ -462,9 +483,13 @@ p {
     box-sizing: border-box;
 }
 
+/* set height of inputs */
+
 #contact-form input {
     height: 40px
 }
+
+/* set height of textarea and remove resizing */
 
 #contact-form textarea {
     height: 150px;
@@ -472,7 +497,7 @@ p {
 }
 
 #socials-list {
-    width: 90vw;
+    
 }
 
 #socials-list .icon > a {
@@ -535,7 +560,13 @@ p {
     }
 }
 
-/* Custom styling for laptop sizes */
+/* Styling for medium sized devices and below */
+
+@media screen and (max-width: 768px) {
+    
+}
+
+/* Custom styling for laptop sizes and above */
 
 @media screen and (min-width: 769px) {
 
@@ -571,10 +602,9 @@ p {
         float: left;
     }
 
-    /* conact */
+    /* contact form change order in flex */
 
     #contact-form-container {
-        flex-basis: 50%;
         order: 1;
     }
 
