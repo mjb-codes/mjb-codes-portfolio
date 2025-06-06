@@ -2,6 +2,56 @@
 
 ## Personal Portfolio for Freelance Web Developer
 
+A single page website built with HTML and CSS deployed using [GitHub Pages](https://pages.github.com/)
+
+### Live demo
+
+[MJB Codes Prtfolio website](https://mjb-codes.github.io/mjb-codes-portfolio)
+
+### Project Structure
+
+mjb-codes-portfolio/
+├── index.html
+├── style.css
+├── script.js
+├── assets/
+    └──css
+    └──images
+    └──wireframes
+└── README.md
+
+### Built with:
+
+*HTML5
+*CSS3
+*Github pages
+
+### Deployment instructions
+
+You can deploy this project to GitHub Pages using the following steps:
+
+#### 1. Push the Project to GitHub
+
+```bash
+git init
+git remote add origin https://github.com/mjb-codes/mjb-codes-portfolio.git
+git add .
+git commit -m "Initial commit"
+git push -u origin main
+```
+
+#### 2. Enable GitHub Pages
+
+1. Go to the repository on GitHub.
+
+2. Go to Settings and select Pages.
+
+3. Under Source, select main (or master) branch and / (root) folder.
+
+4. Click save
+
+
+
 ### What is the main goal of the website?
 To attract new clients and have them get in contact with potential work and opportunities for web development projects, or showcase work to potential employers
 
@@ -297,7 +347,7 @@ The hamburger icon was imported using the Font Awesome library as the input labe
 
 The sites responsiveness was tested using Chrome's developer tools to view the the page across the screen breakpoints [outlined in the wireframes section](wireframes)
 
-![Screenshot of Chrome Dev Tools Responsive device view](https:\\mjb-codes.github.io\mjb-codes-portfolio\assets\images\chrome-dev-tools-responsiveness-screenshot.png "Chrome Dev Tools")
+![Screenshot of Chrome Dev Tools Responsive device view](https://mjb-codes.github.io/mjb-codes-portfolio/assets/images/chrome-dev-tools-responsiveness-screenshot.png "Chrome Dev Tools")
 
 ### Hyperlink testing
 
