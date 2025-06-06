@@ -6,25 +6,25 @@ A single page website built with HTML and CSS deployed using [GitHub Pages](http
 
 ### Live demo
 
-[MJB Codes Prtfolio website](https://mjb-codes.github.io/mjb-codes-portfolio)
+[MJB Codes Portfolio website](https://mjb-codes.github.io/mjb-codes-portfolio)
 
 ### Project Structure
 
 mjb-codes-portfolio/
-├── index.html
-├── style.css
-├── script.js
-├── assets/
-    └──css
-    └──images
-    └──wireframes
-└── README.md
+    index.html
+    style.css
+    script.js
+    assets/
+        css
+        images
+        wireframes
+    README.md
 
 ### Built with:
 
-*HTML5
-*CSS3
-*Github pages
+* HTML5
+* CSS3
+* Github pages
 
 ### Deployment instructions
 
