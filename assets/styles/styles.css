@@ -301,7 +301,7 @@ p {
 #portfolio {
     flex: 1;
     flex-direction: column;
-    padding: 5vw 10vw 5vw 10vw;
+    padding: 80px 5vw 5vh 5vw;
     overflow: hidden;
     min-height: 90vh;
     background-color: var(--color-secondary);
@@ -387,9 +387,10 @@ p {
 #testimonials {
     background-color: var(--color-primary-light);
     padding: 5vh 5vw;
-    margin: 5vh 2vw 2vh 2vw;
+    margin: 10vh 0 5vh 0;
     flex-direction: column;
     justify-content: center;
+    filter: drop-shadow(0 0 0.5rem rgb(30, 30, 30));
 }
 
 #testimonials > h2 {
@@ -402,7 +403,7 @@ p {
 }
 
 .testimonial {
-    max-width: 300px;
+    max-width: 350px;
 }
 
 .testimonial p {
@@ -418,8 +419,6 @@ p {
     border-radius: .2rem;
 }
 
-/* hover animation on */
-
 .quote-name {
     text-align: right;
     line-height: 2.2rem;
@@ -428,8 +427,8 @@ p {
 #testimonials-container {
     gap: 2rem;
     justify-content: space-evenly;
-    flex-direction: row wrap;
-    margin-bottom: 2.2rem;
+    flex-flow: row wrap;
+    margin-bottom: 5vh;
 }
 
 /* Contact */
@@ -585,7 +584,7 @@ p {
     /* align text center */
 
     #contact .title-wrapper,
-    #contact .text-wrapper, {
+    #contact .text-wrapper {
         text-align: center;
     }
 
@@ -603,6 +602,11 @@ p {
         margin-top: 2rem;
     }
 
+    /* Remove part of testimonials pragraph text to reduce height of section */
+
+    .extra-text {
+        display: none;
+    }
 }
 
 /* Custom styling for laptop sizes and above */
@@ -624,7 +628,7 @@ p {
     }
 
     #nav-logo-container {
-        flex: 1
+        flex: 1 0 auto;
     }
 
     #nav {

@@ -415,3 +415,17 @@ Add a media query up to screens sized 1024px that forced flex direction to rever
     }
 }
 ```
+
+#### Testimonials not responsive to screen size
+
+##### Issue
+
+The testimonials would keep reducing in width as screen size reduces, making them unreadable
+
+##### Expected behaviour
+
+Testimonials should wrap as screen width reduced beyond their min width
+
+#### Solution
+
+I found an error in the defined property for the Testimonials container in the stylesheet. `flex-direction: row wrap` was defines, where it shuld have been `flex-flow: row wrap`. Changing to the correct property solved the issue.
