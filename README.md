@@ -292,6 +292,23 @@ The hamburger icon was imported using the Font Awesome library as the input labe
 
 ## Testing
 
+### Responsiveness Testing
+
+The sites responsiveness was tested using Chrome's developer tools to view the the page across the screen breakpoints [outlined in the wireframes section](wireframes)
+
+![Screenshot of Chrome Dev Tools Responsive device view][assets\images\chrome-dev-tools-responsiveness-screenshot.png]
+
+### Hyperlink testing
+
+All hyperlinks were tested manually to ensure they function correctly and opened the external target in a new tab of the browser window.
+
+### CSS and HTML validation
+
+The following services were used to validate the CSS and HTML used in the project:
+
+[CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+[Markup Validation Service](https://validator.w3.org/)
+
 ### Bugs
 
 This following bugs were discovered during the development process. Each one provides a detail of the issue and the solution to fix it, and where appropriate also the expected behaviour before discovering the bug.
