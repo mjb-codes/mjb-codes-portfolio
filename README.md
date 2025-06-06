@@ -197,7 +197,7 @@ Using flexbox, the cards wrap underneath each other as screen size is reduced, d
 
 A Testimonials section was added within the Portfolio section with the title "Client Experiences". Flexbox was used for the layout and to make the section responsive across devices.
 
-![Testimonials secton of the website](https://mjb-codes.github.io/mjb-codes-portfolio/assets/images/portfolio-section-responsive.png "Screenshot of the testimonials section")
+![Testimonials secton of the website](https://mjb-codes.github.io/mjb-codes-portfolio/assets/images/testimonials.png "Screenshot of the testimonials section")
 
 The quotes, names and business names for each testimonial was generated using [ChatGPT](https://chatgpt.com). Anchor tags were styled usng CSS under each testimonial pointing to www.example.com for demonstration purposes.
 
