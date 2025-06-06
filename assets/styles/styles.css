@@ -441,7 +441,8 @@ p {
 }
 
 #contact .title-wrapper > h2,
-#contact .text-wrapper > p {
+#contact .text-wrapper > p,
+#contact #socials > p {
     color: var(--color-primary-dark);
 }
 
@@ -451,13 +452,13 @@ p {
     padding: 30px;
 }
 
-/* flexbox styles for responsive content */
+/* flexbox styles for layout */
 
 #contact .title-wrapper,
 #contact .text-wrapper,
 #socials {
     max-width: 500px;
-    flex: 1 0 30%;
+    flex: 0 0 30%;
     align-self: flex-start;
 }
 
@@ -563,7 +564,12 @@ p {
 /* Styling for medium sized devices and below */
 
 @media screen and (max-width: 768px) {
-    
+    /* Change flex direction of contact form to stack vertically */
+    #contact {
+        flex-flow: column wrap;
+    }
+
+    /*  */
 }
 
 /* Custom styling for laptop sizes and above */
@@ -606,6 +612,24 @@ p {
 
     #contact-form-container {
         order: 1;
+    }
+
+    /* adjust font-size of heading text for contact section */
+    
+    #contact .title-wrapper > h2 {
+        font-size: 1.8rem;
+    }
+
+    #contact .title-wrapper > h2 span {
+        font-size: 3.6rem;
+    }
+
+    /* Align social icons to start */
+
+    #socials-list {
+        justify-content: flex-start;
+        /* set gap between icons */
+        gap: 2rem;
     }
 
 }
