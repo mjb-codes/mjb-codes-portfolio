@@ -386,6 +386,7 @@ The properties of Flexbox allow for responsive design, as it gives content the a
 [The :checked property for checkbox inputs (for menu toggling)](https://developer.mozilla.org/en-US/docs/Web/CSS/:checked)
 
 [Height transition animation referenced for menu toggling](https://www.w3schools.com/css/tryit.asp?filename=trycss3_transition2)
+
 ---
 
 ## Testing
@@ -414,6 +415,7 @@ To check the websites accessibility the following service was used:
 [ADA and WCAG Accessibility Checker](https://www.accessibilitychecker.org/)
 
 This returned errors with visibility using the accent text colour. These elements were adjusted to make the website compliant with WCAG guidelines.
+
 ---
 
 ### Bugs
