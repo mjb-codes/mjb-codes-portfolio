@@ -172,9 +172,18 @@ p {
 
 /* Main Styles */
 
+/* Background video for hero from tutorial https://www.w3schools.com/howto/howto_css_fullscreen_video.asp */
+
+.bg-video {
+    position: absolute;
+    left: 0;
+    mix-blend-mode: multiply;
+}
+
 /* Hero */
 
 #hero {
+    position: relative;
     /* calculate height of section minus navbar */
     height: calc(100vh - 104.8px);
     /* backup bg colour if browser can't support gradient */
@@ -192,6 +201,8 @@ p {
     justify-content: center;
     min-height: 80vh;
     flex: 1;
+    /* z-index to bring above video */
+    z-index: 1;
 }
 
 #hero-text-wrapper p {
