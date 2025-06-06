@@ -193,6 +193,10 @@ p {
     flex: 1;
 }
 
+#hero-text-wrapper p {
+    color: var(--color-text-light);
+}
+
 /* add space above text and buttons in hero */
 
 #hero-button-wrapper,
@@ -248,7 +252,7 @@ p {
 }
 
 #about-text > h2 {
-    font-size: 5vh;
+    font-size: 2.2rem;
     color: var(--color-secondary);
     font-weight: 600;
     margin: .83em 0;
@@ -311,7 +315,7 @@ p {
 
 .title-wrapper > h2 {
     color: var(--color-text-light);
-    font-size: 5vh;
+    font-size: 2.2rem;
 }
 
 .text-wrapper > p {
@@ -543,7 +547,7 @@ p {
     /* reduce about image size on smaller devices */
 
     #about-image-wrapper {
-        width: 80vw;
+        max-width: 80vw;
         height: 80vw;
     }
 
