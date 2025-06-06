@@ -197,7 +197,7 @@ Using flexbox, the cards wrap underneath each other as screen size is reduced, d
 
 A Testimonials section was added within the Portfolio section with the title "Client Experiences". Flexbox was used for the layout and to make the section responsive across devices.
 
-![Testimonials secton of the website](https://mjb-codes.github.io/mjb-codes-portfolio/assets/images/portfolio-section-responsive.png "Screenshot of the testimonials section")
+![Testimonials secton of the website](https://mjb-codes.github.io/mjb-codes-portfolio/assets/images/testimonials.png "Screenshot of the testimonials section")
 
 The quotes, names and business names for each testimonial was generated using [ChatGPT](https://chatgpt.com). Anchor tags were styled usng CSS under each testimonial pointing to www.example.com for demonstration purposes.
 
@@ -386,6 +386,7 @@ The properties of Flexbox allow for responsive design, as it gives content the a
 [The :checked property for checkbox inputs (for menu toggling)](https://developer.mozilla.org/en-US/docs/Web/CSS/:checked)
 
 [Height transition animation referenced for menu toggling](https://www.w3schools.com/css/tryit.asp?filename=trycss3_transition2)
+
 ---
 
 ## Testing
@@ -414,6 +415,7 @@ To check the websites accessibility the following service was used:
 [ADA and WCAG Accessibility Checker](https://www.accessibilitychecker.org/)
 
 This returned errors with visibility using the accent text colour. These elements were adjusted to make the website compliant with WCAG guidelines.
+
 ---
 
 ### Bugs
