@@ -297,7 +297,7 @@ The hamburger icon was imported using the Font Awesome library as the input labe
 
 The sites responsiveness was tested using Chrome's developer tools to view the the page across the screen breakpoints [outlined in the wireframes section](wireframes)
 
-![Screenshot of Chrome Dev Tools Responsive device view](assets\images\chrome-dev-tools-responsiveness-screenshot.png "Chrome Dev Tools")
+![Screenshot of Chrome Dev Tools Responsive device view](https:\\mjb-codes.github.io\mjb-codes-portfolio\assets\images\chrome-dev-tools-responsiveness-screenshot.png "Chrome Dev Tools")
 
 ### Hyperlink testing
 
