@@ -129,7 +129,7 @@
                     <a class="button" href="https://web.archive.org/web/20230127151354/https://tickets.mesmerica.com/denton/" target="_blank" aria-label="Click here to go to the Mesmerica Tickets mini-site for Denton">Visit site</a>
                 </div>
                 <!-- card 3 -->
-                <div class="card" id="am-reflex" type="button" onClick="">
+                <div class="card" id="am-reflex">
                     <img src="./assets/images/am-reflex-site.webp" alt="Screenshot of Aquamarine Reflexology website homepage" class="card-img">
                     <div class="card-text">
                         <h3>Aquamarine Reflexology</h3>
@@ -167,7 +167,7 @@
          </section>
          <section class="flex" id="contact">
             <div class="title-wrapper">
-                <h2>Want to work together?</br><span class="accent-text heavy-text">Let's talk</span></h2>
+                <h2>Want to work together?<br><span class="accent-text heavy-text">Let's talk</span></h2>
             </div>
             <div class="text-wrapper">
                 <p>Have you got a website or other creative web project you want to build? Share your ideas with me via the contact form and we can schedule time to talk.</p>
@@ -178,7 +178,7 @@
                     <input id="name" name="name" type="text" class="text-input" required>
                     <label for="email-address">Email Address</label><br>
                     <input id="email-address" name="email-address" type="email" class="text-input" required>
-                    <label for="query-list">What would you like to know?</label><br>
+                    <label>What would you like to know?<br>
                     <input list="query-list" class="list-input">
                     <datalist id="query-list">
                         <option value="Pricing">
@@ -186,6 +186,7 @@
                         <option value="Ideas">
                         <option value="Another topic">
                     </datalist>
+                    </label>
                     <textarea name="message" placeholder="Type your message here" class="text-input"></textarea>
                     <button type="submit" class="button button-accent" id="submit-button">Submit</button>
                 </form>
@@ -222,7 +223,7 @@
             <li>
                 <p>© MJB Codes 2025</p>
             </li>
-            <li><a href="#hero" arial-label="Click here to go back to the homepage">Back to top</a></li>
+            <li><a href="#hero" aria-label="Click here to go back to the homepage">Back to top</a></li>
         </ul>
     </footer>
     <!-- Font Awesome v.6 library -->
