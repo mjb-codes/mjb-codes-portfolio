@@ -288,6 +288,7 @@ The hamburger icon was imported using the Font Awesome library as the input labe
 #### Menu toggling using checkbox inputs
 
 [The :checked property for checkbox inputs (for menu toggling)](https://developer.mozilla.org/en-US/docs/Web/CSS/:checked)
+
 [Height transition animation referenced for menu toggling](https://www.w3schools.com/css/tryit.asp?filename=trycss3_transition2)
 
 ## Testing
@@ -296,7 +297,7 @@ The hamburger icon was imported using the Font Awesome library as the input labe
 
 The sites responsiveness was tested using Chrome's developer tools to view the the page across the screen breakpoints [outlined in the wireframes section](wireframes)
 
-![Screenshot of Chrome Dev Tools Responsive device view][assets\images\chrome-dev-tools-responsiveness-screenshot.png]
+![Screenshot of Chrome Dev Tools Responsive device view](assets\images\chrome-dev-tools-responsiveness-screenshot.png "Chrome Dev Tools")
 
 ### Hyperlink testing
 
