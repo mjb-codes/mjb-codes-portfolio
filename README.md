@@ -10,15 +10,18 @@ A single page website built with HTML and CSS deployed using [GitHub Pages](http
 
 ### Project Structure
 
+```bash
 mjb-codes-portfolio/
-    index.html
-    style.css
-    script.js
-    assets/
-        css
-        images
-        wireframes
-    README.md
+├───index.html
+├───style.css
+├───script.js
+└───assets
+	├───images
+    	├───styles
+    	├───videos
+    	└───wireframes
+└───README.md
+```
 
 ### Built with:
 
