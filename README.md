@@ -188,10 +188,18 @@ Using flexbox, the cards wrap underneath each other as screen size is reduced, d
 2. Testimonies are attributed to a name and business site for validation
 3. Testimonies are clear to read across all devices
 
-### Tasks
+#### Tasks
 1. Create HTML testimonials section of website
 2. Add testimony text, name and hyperlink to their business
 3. Customise display styling with CSS
+
+### Action
+
+A Testimonials section was added within the Portfolio section with the title "Client Experiences". Flexbox was used for the layout and to make the section responsive across devices.
+
+![Testimonials secton of the website](https://mjb-codes.github.io/mjb-codes-portfolio/assets/images/portfolio-section-responsive.png "Screenshot of the testimonials section")
+
+The quotes, names and business names for each testimonial was generated using [ChatGPT](https://chatgpt.com). Anchor tags were styled usng CSS under each testimonial pointing to www.example.com for demonstration purposes.
 
 **_“As a small business owner I want a clear and simple way to contact the developer to arrange to talk about pricing and availability”_**
 
@@ -207,6 +215,16 @@ Using flexbox, the cards wrap underneath each other as screen size is reduced, d
 2. Build a contact form with input fields for name, email and message, including a dropdown selector with the label “What are you most interested in discussing?” with options for “Pricing, Availability, Ideas, Another topic” and a submit button.
 3. Use custom CSS to add flexible styling across different devices
 
+#### Action
+
+The Contact section of the page features a HTML form and brand icons from [Font Awesome](#font-awesome) acting as links to external platforms.
+
+By default the Contact section layout is styled for larger screens, as opposed to mobile devices, as media queries in the CSS were used to adjust the flex properties as the screen size reduced. This was necessary to acheive a consistent layout across devices.
+
+![Contact section Flex layout on Large screens](https://mjb-codes.github.io/mjb-codes-portfolio/assets/images/contact-flex.png "Screenshot of the contact section with flex lines")
+
+![Contact section Flex layout on Small screens](https://mjb-codes.github.io/mjb-codes-portfolio/assets/images/contact-flex-mobile.png "Screenshot of the contact section on mobile")
+
 **_“As a potential employer I need to know what technologies the developer specialises in, so I can assess their suitability for the role.”_**
 
 #### Acceptance Criteria
@@ -218,6 +236,14 @@ Using flexbox, the cards wrap underneath each other as screen size is reduced, d
 1. Create About Me section in html with image of developer and paragraph of background information
 2. Create unordered list of tech stack developer is experienced in
 3. Use custom CSS to format list to fill page space dynamically across all devices
+
+#### Action
+
+The about section features text content, a profile image and branded icons from [Font Awesome](#font-awesome) representing the developer's Tech Stack (a collection of programming languages or frameworks they are versed in).
+
+As for other sections, the layout was achieved using flexbox, to keep the section dynamic and responsive across all devices.
+
+![About section on a large screen size](https://mjb-codes.github.io/mjb-codes-portfolio/assets/images/about-section.png "Screenshot of the About section")
 
 ## Wireframes
 
@@ -335,6 +361,13 @@ The hamburger icon was imported using the Font Awesome library as the input labe
     height: 50vh;
 }
 ```
+### Flexbox
+
+[MDN Flexbox documentation](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout/Basic_concepts_of_flexbox)
+
+The websites layout and responsiveness was achieved using [Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout/Basic_concepts_of_flexbox).
+
+The properties of Flexbox allow for responsive design, as it gives content the ability to best fit the space used, dynamically changing width, height, and wrapping, making it easier to build a dynamic structure.
 
 ## Libraries
 
@@ -372,6 +405,14 @@ The following services were used to validate the CSS and HTML used in the projec
 
 [CSS Validation Service](https://jigsaw.w3.org/css-validator/)
 [Markup Validation Service](https://validator.w3.org/)
+
+### Accessibility testing
+
+To check the websites accessibility the following service was used:
+
+[ADA and WCAG Accessibility Checker](https://www.accessibilitychecker.org/)
+
+This returned errors with visibility using the accent text colour. These elements were adjusted to make the website compliant with WCAG guidelines.
 
 ### Bugs
 
