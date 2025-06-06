@@ -220,6 +220,10 @@ p {
     gap: 15px;
 }
 
+#about-content {
+    flex-flow: column wrap
+}
+
 #about-image-wrapper {
     padding-top: 2rem;
     width: 50vh;
@@ -253,7 +257,7 @@ p {
 #tech-stack {
     flex-basis: 100%;
     margin: 24px 0;
-    padding: 12px;
+    padding: 12px 0;
     /* background-color: red; */
 }
 
@@ -576,6 +580,12 @@ p {
 
 @media screen and (min-width: 769px) {
 
+    /* reduce paragraph font size across page */
+
+    p {
+        font-size: 1.2rem;
+    }
+
     /* show navigation links in navbar */
 
     /* hide menu icon */
@@ -606,6 +616,23 @@ p {
 
     #nav-links li {
         float: left;
+    }
+
+    /* Align items right in About content section */
+
+    #about-content {
+        flex: 0 1 50%;
+        justify-content: flex-start;
+    }
+
+    /* align about text and button to left */
+
+    #about-text {
+        text-align: left;
+    }
+
+    #about-buttons {
+        justify-content: left;
     }
 
     /* contact form change order in flex */
