@@ -494,7 +494,7 @@ p {
 /* set height of inputs */
 
 #contact-form input {
-    height: 40px
+    height: 30px
 }
 
 /* set height of textarea and remove resizing */
@@ -591,8 +591,7 @@ p {
     /* resize form button to fill form width */
     #submit-button {
         display: block;
-        width: 100%;
-        margin: 0;
+        max-width: 100%;
     }
 }
 

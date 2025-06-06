@@ -426,6 +426,16 @@ The testimonials would keep reducing in width as screen size reduces, making the
 
 Testimonials should wrap as screen width reduced beyond their min width
 
-#### Solution
+##### Solution
 
 I found an error in the defined property for the Testimonials container in the stylesheet. `flex-direction: row wrap` was defines, where it shuld have been `flex-flow: row wrap`. Changing to the correct property solved the issue.
+
+#### Form submit button width
+
+##### Issue
+
+The submit input button on the contact form was not expanding to 100% width after setting the appropriate CSS properties in a media query
+
+##### Solution
+
+I found using Chrome developer tools that the default button class `.button` was set to `max-width: 200px`. For the submit button I was setting `width: 100%`, so the max-width property remained active. By changing the width property in the media query to `max-width: 100%` the button expanded across the full space.
