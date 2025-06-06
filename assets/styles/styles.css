@@ -68,6 +68,10 @@ p {
     color: var(--color-highlight-raise);
 }
 
+.link-text {
+    color: var(--color-primary-dark);
+}
+
 /* flex class */
 
 .flex {
@@ -95,8 +99,8 @@ p {
 }
 
 .button-accent {
-    background-color: var(--color-highlight--raise);
-    border: .15rem solid var(--color-highlight--raise);
+    background-color: var(--color-secondary);
+    border: .15rem solid var(--color-secondary);
 }
 
 .button:hover {
@@ -589,8 +593,8 @@ p {
     }
 
     #hero-button-wrapper :nth-child(2) {
-        background-color: var(--color-highlight);
-        border-color: var(--color-highlight);
+        background-color: var(--color-secondary);
+        border-color: var(--color-secondary);
     }
 
     #hero-button-wrapper .button {
