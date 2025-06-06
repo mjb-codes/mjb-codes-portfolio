@@ -16,7 +16,7 @@ mjb-codes-portfolio/
 ├───style.css
 ├───script.js
 └───assets
-	├───images
+	└───images
     	├───styles
     	├───videos
     	└───wireframes
@@ -53,7 +53,9 @@ git push -u origin main
 
 4. Click save
 
+---
 
+## UX
 
 ### What is the main goal of the website?
 To attract new clients and have them get in contact with potential work and opportunities for web development projects, or showcase work to potential employers
@@ -66,8 +68,6 @@ Individuals or Businesses in need of a developer to fulfil a web development pro
 
 ### What do primary users need from the website?
 An overview of what services are provided, examples of in-production work and a method to get in contact with the site owner
-
-## UX
 
 ### Strategy
 
@@ -166,6 +166,16 @@ To demonstrate technical ability and personality through a clear flow of informa
 1. Create a HTML section on the site dedicated to a project portfolio and populate with cards for each example
 2. Include an image of the project, project title and detail text and button linking to the deployed project
 3. Add custom dynamic styling with CSS using flexbox
+
+#### Action
+
+The Portfolio section of the website displays 'Project cards' which include a background image of the target website, a short description and a link to a production (or archived) version of the project.
+
+![Portfolio website section](https://mjb-codes.github.io/mjb-codes-portfolio/assets/images/portfolio-section.png "Portfolio section screenshot")
+
+Using flexbox, the cards wrap underneath each other as screen size is reduced, displaying each one clearly on the vertical scroll.
+
+![Portfolio section on Mobile screens](https://mjb-codes.github.io/mjb-codes-portfolio/assets/images/portfolio-section-responsive.png "Portfolio section screenshot on mobile screens")
 
 **_“As a small business owner I want to see testimonials from previous clients, so I feel reassured that they are trustworthy to hire”_**
 
