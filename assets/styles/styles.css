@@ -567,13 +567,46 @@ p {
 
 /* Styling for medium sized devices and below */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     /* Change flex direction of contact form to stack vertically */
     #contact {
-        flex-flow: column wrap;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        max-height: 100%;
     }
 
-    /*  */
+    /* Revert flex properties of content */
+
+    #contact .title-wrapper,
+    #contact .text-wrapper,
+    #contact-form-container,
+    #socials {
+        flex: 1 0 auto;
+        align-self: center;
+    }
+
+    /* align text center */
+
+    #contact .title-wrapper,
+    #contact .text-wrapper, {
+        text-align: center;
+    }
+
+    /* Justify socials icons evenly */
+
+    #socials-list {
+        justify-content: space-between;
+    }
+
+    /* Change contact form order in flex */
+
+    #socials {
+        order: 1;
+        /* Add margin above */
+        margin-top: 2rem;
+    }
+
 }
 
 /* Custom styling for laptop sizes and above */

@@ -359,3 +359,59 @@ When using the menu navigation links a smooth scrolling transition was expected 
 ##### Solution
 
 Add `scroll-behavior: smooth` to the html element in the stylesheet to enable smooth scrolling for the whole page
+
+#### Contact section responsiveness
+
+##### Issue
+
+On screen sizes below 1024px, the contact form would not wrap under the other content, opening a margin to the right side of the screen elsewhere
+
+##### Expected behaviour
+
+Contact form to stack in column under rest of content
+
+##### Solution
+
+Add a media query up to screens sized 1024px that forced flex direction to revert to column
+```css
+@media screen and (max-width: 1024px) {
+    /* Change flex direction of contact form to stack vertically */
+    #contact {
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        max-height: 100%;
+    }
+
+    /* Revert flex properties of content */
+
+    #contact .title-wrapper,
+    #contact .text-wrapper,
+    #contact-form-container,
+    #socials {
+        flex: 1 0 auto;
+        align-self: center;
+    }
+
+    /* align text center */
+
+    #contact .title-wrapper,
+    #contact .text-wrapper, {
+        text-align: center;
+    }
+
+    /* Justify socials icons evenly */
+
+    #socials-list {
+        justify-content: space-between;
+    }
+
+    /* Change contact form order in flex */
+
+    #socials {
+        order: 1;
+        /* Add margin above */
+        margin-top: 2rem;
+    }
+}
+```
