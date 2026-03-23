@@ -369,9 +369,21 @@ The websites layout and responsiveness was achieved using [Flexbox](https://deve
 
 The properties of Flexbox allow for responsive design, as it gives content the ability to best fit the space used, dynamically changing width, height, and wrapping, making it easier to build a dynamic structure.
 
-## Libraries
+## Credits / References
 
-### Font Awesome
+### Images & Videos
+
+Hero background video sourced from [Pixabay](https://www.pixabay.com)
+
+About and Portfolio section images are original and owned by the site author
+
+### Icons
+
+All icons have been sourced from [Font Awesome](https://www.fontwesom.com) (see Libraries)
+
+### Libraries
+
+#### Font Awesome
 
 [Font Awesome vers. 6](https://www.fontawesome.com) icon library is installed to allow for branded icons in the About Me and Contact sections
 
@@ -386,6 +398,8 @@ The properties of Flexbox allow for responsive design, as it gives content the a
 [The :checked property for checkbox inputs (for menu toggling)](https://developer.mozilla.org/en-US/docs/Web/CSS/:checked)
 
 [Height transition animation referenced for menu toggling](https://www.w3schools.com/css/tryit.asp?filename=trycss3_transition2)
+
+Additional guidance from [w3 Schools](https://www.w3schools.org) and [Mozilla MDN Web Docs](https://developer.mozilla.org)
 
 ---
 
