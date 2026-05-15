@@ -255,9 +255,9 @@ Small | `480px and under` | Smartphone (portrait)
 Medium | `481px - 768px` | Tablet (portrait)
 Large | `769px and above` | Laptop screens and larger
 
-1. [Mobile device wireframe](./assets/wireframes/Portfolio%20Page%20Wireframes.png)
-2. [Tablet device wireframe](./assets/wireframes/Portfolio%20Page%20Wireframes.png)
-3. [Laptop and larger device wireframe](./assets/wireframes/Portfolio%20Page%20Wireframes.png)
+1. [Mobile device wireframe](./assets/wireframes/portfolio-page-wireframes.png)
+2. [Tablet device wireframe](./assets/wireframes/portfolio-page-wireframes.png)
+3. [Laptop and larger device wireframe](./assets/wireframes/portfolio-page-wireframes.png)
 
 ## Design
 
