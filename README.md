@@ -422,6 +422,10 @@ The following services were used to validate the CSS and HTML used in the projec
 [CSS Validation Service](https://jigsaw.w3.org/css-validator/)
 [Markup Validation Service](https://validator.w3.org/)
 
+![HTML Validation Result](./assets/images/w3c-html-validation.png "W3C HTML Validator - No Errors")
+
+![CSS Validation Result](./assets/images/w3c-css-validation.png "W3C CSS Validator - No Errors")
+
 ### Accessibility testing
 
 To check the websites accessibility the following service was used:
@@ -429,6 +433,12 @@ To check the websites accessibility the following service was used:
 [ADA and WCAG Accessibility Checker](https://www.accessibilitychecker.org/)
 
 This returned errors with visibility using the accent text colour. These elements were adjusted to make the website compliant with WCAG guidelines.
+
+The mobile and desktop versions were also tested using Chrome's Lighthouse analysis in the developer tools. Both versins returned 100% accessibility results:
+
+![Lighthouse Mobile](./assets/images/lighthouse-accessibility.png "Lighthouse Accessibility - Mobile")
+
+![Lighthouse Desktop](./assets/images/lighthouse-desktop.png "Lighthouse Accessibility - Desktop")
 
 ---
 
