@@ -405,6 +405,31 @@ Additional guidance from [w3 Schools](https://www.w3schools.org) and [Mozilla MD
 
 ## Testing
 
+### Test Plan Table
+
+| # | Feature | Test Description | Steps | Expected Result | Actual Result | Pass/Fail |
+|---|---------|-----------------|-------|-----------------|---------------|-----------|
+| 1 | Navbar - Home link | Click Home link in navbar | Click "Home" | Page scrolls to hero section | Scrolls to hero | Pass |
+| 2 | Navbar - About link | Click About link in navbar | Click "About" | Page scrolls to about section | Scrolls to about | Pass |
+| 3 | Navbar - Portfolio link | Click Portfolio link | Click "Portfolio" | Page scrolls to portfolio section | Scrolls to portfolio | Pass |
+| 4 | Navbar - Testimonials link | Click Testimonials link | Click "Testimonials" | Scrolls to testimonials | Scrolls correctly | Pass |
+| 5 | Navbar - Contact link | Click Contact link | Click "Contact" | Scrolls to contact section | Scrolls correctly | Pass |
+| 6 | Hamburger menu | Click hamburger on mobile | Resize to mobile, click icon | Menu opens with nav links | Menu opens | Pass |
+| 7 | Hero - Find out more | Click CTA button | Click "Find out more" | Scrolls to about section | Scrolls correctly | Pass |
+| 8 | Hero - Get in touch | Click CTA button | Click "Get in touch" | Scrolls to contact section | Scrolls correctly | Pass |
+| 9 | Portfolio - Mesmerica Events | Click Visit site | Click button | Opens mesmerica.com in new tab | Opens new tab | Pass |
+| 10 | Portfolio - Mesmerica Tickets | Click Visit site | Click button | Opens archive.org link in new tab | Opens new tab | Pass |
+| 11 | Portfolio - Aquamarine | Click Visit site | Click button | Opens aquamarine site in new tab | Opens new tab | Pass |
+| 12 | Contact form - empty submit | Submit empty form | Click Submit with no data | Form shows validation errors | Browser validation shown | Pass |
+| 13 | Contact form - invalid email | Enter invalid email format | Type "test" in email field, submit | Email validation error | Validation shown | Pass |
+| 14 | Contact form - valid submit | Fill all fields correctly | Complete form, click Submit | Form submits successfully | Form submits | Pass |
+| 15 | Social - LinkedIn | Click LinkedIn icon | Click icon in contact | Opens linkedin in new tab | Opens new tab | Pass |
+| 16 | Social - GitHub | Click GitHub icon | Click icon in contact | Opens GitHub profile in new tab | Opens new tab | Pass |
+| 17 | Footer - Back to top | Click Back to top | Click link in footer | Scrolls to top of page | Scrolls to top | Pass |
+| 18 | Responsiveness - Mobile | Test at 480px | Resize to 480px | Layout stacks vertically, hamburger shows | Layout correct | Pass |
+| 19 | Responsiveness - Tablet | Test at 769+px | Resize to 769+px | Layout adjusts, nav visible | Layout correct | Fail |
+| 20 | Responsiveness - Desktop | Test at 1200px+ | View at full width | Full horizontal layout | Layout correct | Pass |
+
 ### Responsiveness Testing
 
 The sites responsiveness was tested using Chrome's developer tools to view the the page across the screen breakpoints [outlined in the wireframes section](wireframes)
