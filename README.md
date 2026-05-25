@@ -427,7 +427,7 @@ Additional guidance from [w3 Schools](https://www.w3schools.org) and [Mozilla MD
 | 16 | Social - GitHub | Click GitHub icon | Click icon in contact | Opens GitHub profile in new tab | Opens new tab | Pass |
 | 17 | Footer - Back to top | Click Back to top | Click link in footer | Scrolls to top of page | Scrolls to top | Pass |
 | 18 | Responsiveness - Mobile | Test at 480px | Resize to 480px | Layout stacks vertically, hamburger shows | Layout correct | Pass |
-| 19 | Responsiveness - Tablet | Test at 769+px | Resize to 769+px | Layout adjusts, nav visible | Layout correct | Fail |
+| 19 | Responsiveness - Tablet | Test at 769+px | Resize to 768px | Layout adjusts, nav visible | Layout incorrect - see bugs section | Fail |
 | 20 | Responsiveness - Desktop | Test at 1200px+ | View at full width | Full horizontal layout | Layout correct | Pass |
 
 ### Responsiveness Testing
@@ -621,3 +621,24 @@ The submit input button on the contact form was not expanding to 100% width afte
 ##### Solution
 
 I found using Chrome developer tools that the default button class `.button` was set to `max-width: 200px`. For the submit button I was setting `width: 100%`, so the max-width property remained active. By changing the width property in the media query to `max-width: 100%` the button expanded across the full space.
+
+#### Responsive navbar layout at 768px - 900px link spacing - Test 19 in table
+
+##### Issue
+
+When screen width is adjusted to 768px and above, the spacing between the links is too narrow
+
+##### Expected Behavious
+
+The navbar should show an exanded, horizontal links menu with adequate spacing between each link
+
+##### Solution
+
+In styles.css add a ```margin-right``` property with the value of 12px to the ```#nav-links li``` selector in the media query for screens of 768px and above
+
+```css
+ #nav-links li {
+        float: left;
+        padding-right: 12px;
+    }
+```
