@@ -13,14 +13,13 @@ A single page website built with HTML and CSS deployed using [GitHub Pages](http
 ```bash
 mjb-codes-portfolio/
 ├───index.html
-├───style.css
-├───script.js
-└───assets
-	└───images
-    	├───styles
-    	├───videos
-    	└───wireframes
-└───README.md
+├───README.md
+└───assets/
+	├───images/
+    ├───styles/
+        └───styles.css
+    ├───videos/
+    └───wireframes/
 ```
 
 ### Built with:
@@ -219,7 +218,7 @@ The quotes, names and business names for each testimonial was generated using [C
 
 The Contact section of the page features a HTML form and brand icons from [Font Awesome](#font-awesome) acting as links to external platforms.
 
-By default the Contact section layout is styled for larger screens, as opposed to mobile devices, as media queries in the CSS were used to adjust the flex properties as the screen size reduced. This was necessary to acheive a consistent layout across devices.
+By default the Contact section layout is styled for larger screens, as opposed to mobile devices, as media queries in the CSS were used to adjust the flex properties as the screen size reduced. This was necessary to achieve a consistent layout across devices.
 
 ![Contact section Flex layout on Large screens](https://mjb-codes.github.io/mjb-codes-portfolio/assets/images/contact-flex.png "Screenshot of the contact section with flex lines")
 
@@ -610,7 +609,7 @@ Testimonials should wrap as screen width reduced beyond their min width
 
 ##### Solution
 
-I found an error in the defined property for the Testimonials container in the stylesheet. `flex-direction: row wrap` was defines, where it shuld have been `flex-flow: row wrap`. Changing to the correct property solved the issue.
+I found an error in the defined property for the Testimonials container in the stylesheet. `flex-direction: row wrap` was defines, where it should have been `flex-flow: row wrap`. Changing to the correct property solved the issue.
 
 #### Form submit button width
 
